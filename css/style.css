@@ -117,6 +117,23 @@ main {
   left: 17%;
 }
 
+.heart {
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+  position: absolute;
+  top: 7px;
+  right: 24px;
+  font-size: 38px;
+  width: 52px;
+  text-align: center
+}
+
+.heart:hover {
+  color: red;
+  cursor: pointer;
+}
+
 .fornt-image {
   display: block;
 }
