@@ -5,3 +5,61 @@
 }
 
 /*Header*/
+
+header {
+  background-color: #ff6900;
+  height: 90px;
+  padding: 10px 0px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dispaly-flex {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin: 0px 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+.p-20 {
+  padding: 20px;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+}
