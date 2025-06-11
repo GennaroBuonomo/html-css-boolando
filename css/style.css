@@ -116,3 +116,19 @@ main {
   bottom: 25px;
   left: 17%;
 }
+
+.fornt-image {
+  display: block;
+}
+
+.back-image {
+  display: none;
+}
+
+.card:hover .front-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
+}
