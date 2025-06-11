@@ -74,6 +74,7 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .justify-content-center {
@@ -81,7 +82,7 @@ main {
 }
 
 .col-33 {
-  width: 400px;
+  width: calc(100% / 3 -10px);
 }
 
 .card {
@@ -123,7 +124,7 @@ main {
   background-color: #fff;
   position: absolute;
   top: 7px;
-  right: 14px;
+  right: 0px;
   font-size: 38px;
   width: 52px;
   text-align: center
