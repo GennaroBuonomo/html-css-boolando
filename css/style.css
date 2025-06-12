@@ -16,6 +16,7 @@ header {
 
 .logo {
   width: 150px;
+  text-align: center;
 }
 
 .container {
@@ -33,10 +34,6 @@ header {
   font-size: 20px;
   gap: 10px;
   padding: 10px;
-}
-
-.logo {
-  text-align: center;
 }
 
 ul {
@@ -78,7 +75,7 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .justify-content-center {
@@ -153,6 +150,18 @@ main {
 
 .card:hover .back-image {
   display: block;
+}
+
+.article-brand {
+  font-size: 15px;
+}
+
+.article-name {
+  text-transform: uppercase;
+}
+
+.article-price {
+  color: red;
 }
 
 /*footer*/
